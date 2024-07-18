@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#Add {
+    background-color: #263726;
+    color: white;
+}
+
+#Sub {
+    background-color: #673c39;
+    color: white;
+}
+
+#Mul {
+    background-color: #88b5db;
+    color: white;
+}
+
+#Div {
+    background-color: #FF9800;
+    color: white;
+}
+#Mod {
+    background-color: #8a80ab;
+    color: white;
+}
+#EXP {
+    background-color: #d090bb;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+#output {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+
